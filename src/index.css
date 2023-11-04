@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slide-animation {
+    transition: transform 10s ease; /* Adjust the duration and timing function as needed */
+  }
+  
+  .slide-animation:hover {
+    transform: translateX(10px); /* Adjust the distance you want the image to slide */
+  }
